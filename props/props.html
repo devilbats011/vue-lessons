@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Props App</title>
+</head>
+<body>
+<div id="app">
+  <child :text="message"></child>
+  <br>
+  <otherchild :icecream="type"></otherchild>
+  <br>
+  <child1 :icecreambig="bigtype"></child1>
+
+
+   <p>This a big post helps us to learn vue props</p>
+    <mybutton :name="name"></mybutton>
+
+  </div>
+
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="main.js"> </script>
+</body>
+</html>
+<script>
+
+	import Button from 'button.vue';
+	export default{
+		components:{
+		'mybutton':Button
+		}
+	}
+
+</script>
