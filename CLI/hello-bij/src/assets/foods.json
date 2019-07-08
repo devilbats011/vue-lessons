@@ -1,0 +1,40 @@
+// foods.json
+
+[
+  {
+    "id": 1,
+    "category":"Food",
+    "cuisine":"Italian",
+    "type": "Pasta",
+    "food": "Macaroni And Cheese",
+    "recipe": "recipe",
+    "url": "../assets/logo.png",
+  },
+  {
+    "id": 2,
+    "category":"Food",
+    "cuisine":"Italian",
+    "type": "Pasta",
+    "food": "Shrimp Scampi with Linguini",
+    "recipe": "recipe",
+    "url": "../assets/logo.png",
+  },
+  {
+    "id": 3,
+    "category":"Food",
+    "cuisine":"Italian",
+    "type": "Pasta",
+    "food": "Low-Cal Fettuccine Alfredo",
+    "recipe": "recipe",
+    "url": "../assets/logo.png",
+  },
+  {
+    "id": 4,
+    "category":"Food",
+    "cuisine":"Italian",
+    "type": "Pasta",
+    "food": "Chicken Spaghetti",
+    "recipe": "recipe",
+    "url": "../assets/logo.png",
+  },
+]
